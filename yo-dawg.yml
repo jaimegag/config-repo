@@ -2,3 +2,4 @@ foo: bar
 bar: baz
 baz: yak
 yak: shaved
+shaved: yak
