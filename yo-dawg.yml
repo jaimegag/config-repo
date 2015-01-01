@@ -1,6 +1,6 @@
 foo: bar
 bar: baz
 baz: yak
-yak: shaved
+yak: notshaved
 shaved: yak
 answer: 42
