@@ -23,3 +23,6 @@ eureka:
   instance:
     hostname: ${instance.ip}
     nonSecurePort: ${instance.port}
+services:
+  rabbitmq:
+    host: rabbitmq.192.168.11.11.xip.io
