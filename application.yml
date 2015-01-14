@@ -25,4 +25,5 @@ eureka:
     nonSecurePort: ${instance.port}
 services:
   rabbitmq:
-    host: rabbitmq.192.168.11.11.xip.io
+    host: 10.0.2.15
+    port: 61018
