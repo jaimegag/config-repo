@@ -14,6 +14,8 @@ eureka:
 ---
 spring:
   profiles: lattice
+server:
+  port: 8080
 eureka:
   client:
     serviceUrl:
