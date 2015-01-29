@@ -4,7 +4,7 @@ eureka:
       defaultZone: ${vcap.services.service-registry.credentials.uri:http://127.0.0.1:8761}/eureka/
   instance:
     leaseRenewalIntervalInSeconds: 10
-greeting: hello
+greeting: ohai
 
 ---
 spring:
