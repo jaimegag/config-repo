@@ -25,10 +25,10 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka.192.168.11.11.xip.io/eureka/
+      defaultZone: http://eureka.52.5.229.248.xip.io/eureka/
   instance:
     hostname: ${instance.ip}
     nonSecurePort: ${instance.port}
 lattice:
   receptor:
-    host: receptor.192.168.11.11.xip.io
+    host: receptor.52.5.229.248.xip.io
