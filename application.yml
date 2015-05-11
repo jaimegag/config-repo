@@ -27,6 +27,8 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka.52.5.229.248.xip.io/eureka/
   instance:
+    metadataMap:
+      instanceId: ${instance.guid}:${spring.application.name}:${server.port:8080}
     hostname: ${cf.instance.ip}
     nonSecurePort: ${cf.instance.port}
 lattice:
