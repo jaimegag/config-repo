@@ -37,4 +37,4 @@ lattice:
 services:
   rabbitmq:
     host: 10.0.1.207
-    port: 61107
+    port: 61111
