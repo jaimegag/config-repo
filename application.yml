@@ -20,6 +20,8 @@ eureka:
 ---
 spring:
   profiles: lattice
+  application:
+    index: ${instance.index}
 server:
   port: 8080
 eureka:
