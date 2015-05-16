@@ -19,16 +19,6 @@ eureka:
 
 ---
 spring:
-  profiles: pcf
-eureka:
-  instance:
-    metadataMap:
-      instanceId: ${instance.guid}:${spring.application.name}:${server.port:8080}
-    hostname: ${cf.instance.ip}
-    nonSecurePort: ${cf.instance.port}
-
----
-spring:
   profiles: lattice
   application:
     index: ${instance.index}
