@@ -7,10 +7,7 @@ eureka:
     serviceUrl:
       defaultZone: ${vcap.services.service-registry.credentials.uri:http://127.0.0.1:8765}/eureka/
 
-fortunes: 
-  one: "Here's the first fortune"
-  two: "And a second one ..."
-  three: "what's out for the third"
+fortunes: {1: "Here's the first fortune", 2: "And a second one ...", 3: "what's out for the third"}
 
 ---
 spring:
